@@ -1,10 +1,6 @@
-### 指令
+### 指令 
 
-```html
-<div style="background:red">
-  {{ message }}
-</div>
-```
+​	```<div style="background:red">html</div>```
 
 
 
