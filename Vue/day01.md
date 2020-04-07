@@ -1,7 +1,5 @@
 ### 指令 
 
-​	```<div style="background:red">html</div>```
-
 
 
 > 常用的取值符
@@ -18,7 +16,7 @@ data(){
 </script>
 ```
 
-
+​	<h1 style="color:red">这是一个代码块测试</h1>
 
 * 2、 v-bind
 
