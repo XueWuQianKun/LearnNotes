@@ -6,12 +6,13 @@
 
   ``` vue
   {{ message }}
+  
   <script>
-  	 data() {
-       retrun {
-         message:"message"
-       }
-     }
+  data(){
+    return{
+      message:"message"
+    }
+  }
   </script>
   ```
 
