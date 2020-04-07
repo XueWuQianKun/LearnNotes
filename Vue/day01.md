@@ -1,22 +1,28 @@
 ### 指令
 
-* 1、 {{ message }}
-
-  > 常用的取值符
-
-  ``` vue
+```html
+<div style="background:red">
   {{ message }}
-  
-  <script>
-  data(){
-    return{
-      message:"message"
-    }
-  }
-  </script>
-  ```
+</div>
+```
 
-  
+
+
+> 常用的取值符
+
+``` vue
+{{ message }}
+
+<script>
+data(){
+  return{
+    message:"message"
+  }
+}
+</script>
+```
+
+
 
 * 2、 v-bind
 
@@ -43,3 +49,4 @@
 * 9
 
 * 10
+
