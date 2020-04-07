@@ -1,53 +1,44 @@
-##标题
+### 指令
 
-**sunshine**
+* 1、 {{ message }}
 
-~~shunshien3efe~~
+  > 常用的取值符
 
-***shunshine***
+  ``` vue
+  {{ message }}
+  <script>
+  	 data() {
+       retrun {
+         message:"message"
+       }
+     }
+  </script>
+  ```
 
-> 引用
->
-> >
+  
 
+* 2、 v-bind
 
+  > 用于绑定html属性
 
-###更丰富的颜色
+  ```vue
+  
+  ```
 
-+ 列表
+  
 
+* 3
 
-| 姓名 | 年龄 | 学校 |
-| :--: | :--: | :--: |
-|      |      |      |
+* 4
 
+* 5
 
+* 6
 
-```java
-public static void main(String[] args){
-    System.out.println("hello world");
-}
-```
+* 7
 
-###而是三水电费沙拉酱豆腐
+* 8
 
-```flow
-st=>start: 开始
-op=>operation: My Operation
-two=>operation: 操作
-cond=>condition: Yes or No?
-condt=>condition: 是否
-e=>end: 结束
-st->op->cond->two->condt
-cond(yes)->two
-cond(no)->op
-condt(yes)->e
-condt(no)->two
-```
+* 9
 
-
-
-
-
-
-
+* 10
