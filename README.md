@@ -1,2 +1,2 @@
-# VueNotes
-Vue笔记
+# LearnNotes
+学习笔记
