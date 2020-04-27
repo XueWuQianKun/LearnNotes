@@ -2,7 +2,7 @@
 
 > ##### 映射map，下划线转驼峰，大写变小写
 
->   1、自定义***MapWrapper***
+>   1、自定义  ***MapWrapper***
 >
 > ````java
 > public class CustomMapWrapper extends MapWrapper {
@@ -20,7 +20,7 @@
 > }
 > ````
 >
-> 2、自定义***MapWrapperFactory***
+> 2、自定义  ***MapWrapperFactory***
 >
 >  ````java
 > public class CustomMapWrapperFactory implements ObjectWrapperFactory {
@@ -37,14 +37,14 @@
 > }
 >  ````
 >
-> 3、在配置类中注入***WrapperFactory***
+> 3、在配置类中注入自定义的  ***MapWrapperFactory***
 >
 > ````java
 >     @Bean
 >     public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception
 >     { 
 >       	// 其他配置...略
->       SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
+>      		SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
 >       	// 其他配置....略
 >         sessionFactory.setObjectWrapperFactory(new CustomMapWrapperFactory());
 >         return sessionFactory.getObject();
