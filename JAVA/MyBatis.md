@@ -44,9 +44,17 @@
 >     public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception
 >     { 
 >       	// 其他配置...略
-> 				SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
+>       SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
 >       	// 其他配置....略
 >         sessionFactory.setObjectWrapperFactory(new CustomMapWrapperFactory());
 >         return sessionFactory.getObject();
 >     }
 > ````
+>
+> 4、需设置（由于CustomerWrapper中是根据这个来控制是否使用自定义map转换的）
+>
+> ````xml
+> mybatis.configuration.map-underscore-to-camel-case=true
+> ````
+>
+> 
