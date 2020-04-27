@@ -2,7 +2,7 @@
 
 > ##### 映射map，下划线转驼峰，大写变小写
 
->   1、自定义MapWrapper
+>   1、自定义***MapWrapper***
 >
 > ````java
 > public class CustomMapWrapper extends MapWrapper {
@@ -20,7 +20,7 @@
 > }
 > ````
 >
-> 2、自定义MapWrapperFactory
+> 2、自定义***MapWrapperFactory***
 >
 >  ````java
 > public class CustomMapWrapperFactory implements ObjectWrapperFactory {
@@ -37,7 +37,7 @@
 > }
 >  ````
 >
-> 3、在配置类中注入WrapperFactory
+> 3、在配置类中注入***WrapperFactory***
 >
 > ````java
 >     @Bean
@@ -51,7 +51,7 @@
 >     }
 > ````
 >
-> 4、需设置（由于CustomerWrapper中是根据这个来控制是否使用自定义map转换的）
+> 4、需设置（由于***CustomerWrapper***中是根据这个来控制是否使用自定义map转换的）
 >
 > ````xml
 > mybatis.configuration.map-underscore-to-camel-case=true
