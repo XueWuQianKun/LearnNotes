@@ -1,6 +1,6 @@
 ### 1、类的继承关系图
 
-<img src='../source/class_relation.png'>
+<img src='https://raw.githubusercontent.com/XueWuQianKun/LearnNotes/master/Swift/Animation/images/class_relation.png'>
 
 
 
